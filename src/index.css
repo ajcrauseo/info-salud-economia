@@ -16,7 +16,8 @@ html {
 
 body {
     overflow-x: hidden;
-    background-color: #ededed;
+    /* background-color: #ededed; */
+    background-image: linear-gradient(to top, #b6d3ff, #bed6fd, #c6d9fb, #ceddf8, #d5e0f6);
 }
 
 /* ----------- SCROLLBAR ------------ */
@@ -41,7 +42,8 @@ body {
 /* ---------- HEADER ------------- */
 
 .header {
-    background-color: #D5E0F6;
+    /* background-color: #D5E0F6; */
+    background-image: linear-gradient(to bottom, #b6d3ff, #bed6fd, #c6d9fb, #ceddf8, #d5e0f6);
     height: 12vh;
     width: 100vw;
     display: grid;
@@ -128,7 +130,8 @@ body {
 /* ----------- FOOTER ----------- */
 
 footer {
-    background-color: #D5E0F6;
+    /* background-color: #D5E0F6; */
+    background-image: linear-gradient(to bottom, #b6d3ff, #bed6fd, #c6d9fb, #ceddf8, #d5e0f6);
     height: 20vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
