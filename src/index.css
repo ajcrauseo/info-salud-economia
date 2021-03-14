@@ -16,6 +16,7 @@ html {
 
 body {
     overflow-x: hidden;
+    background-color: #ededed;
 }
 
 /* ----------- SCROLLBAR ------------ */
@@ -46,14 +47,27 @@ body {
     display: grid;
     grid-template-columns: 100px auto;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.6s;
+}
+
+.header.sticky {
+    height: 8vh;
 }
 
 .header--logo {
     justify-self: center;
+    transition: 0.6;
 }
 
 .header--logo img{
     width: 50px;
+}
+
+.header.sticky .header--logo img{
+    width: 35px;
 }
 
 /* --------- NAVBAR ---------- */
@@ -66,12 +80,17 @@ body {
     justify-content: space-around;
 }
 
+.header.sticky .navbar {
+    height: 8vh;
+}
+
 .navbar--item a{
     font-size: 1.7rem;
     text-decoration: none;
     color: #000000f2;
     text-shadow: -2px -1px 4px rgba(150, 150, 150, 1);
     font-weight: 400;
+    transition: 0.6;
 }
 
 .navbar--item a:hover{
@@ -81,7 +100,7 @@ body {
 /* --------- HERO ----------- */
 
 .hero {
-    height: 88vh;
+    height: 100vh;
     width: 100vw;
     background-color: paleturquoise;
     background-image: url("https://www.semana.com/resizer/2RQN1TrbWxHxsdPjj1hftp0bGl0=/1200x675/filters:format(jpg):quality(70)//cloudfront-us-east-1.images.arcpublishing.com/semana/774UBTZBKRFPLAIUE4EAF5PQIU.jpg");
@@ -101,6 +120,8 @@ body {
     background-color: rgba(128, 128, 128, 0.05);
     padding: 1rem 3rem;
     border-radius: 1rem;
+    /* transition: 0.6s; */
+    /* animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both; */
 }
 
 /* ----------- FOOTER ----------- */
@@ -145,12 +166,19 @@ footer {
 /* ------- ARTICULOS GLOBAL -------- */
 .articulo-1 {
     margin-top: 4rem;
+    border-radius: 1rem 1rem 0 0;
 }
 
 article {
-    padding: 1rem;
+    padding: 2rem 4rem 2rem 2rem;
     display: flex;
     flex-direction: column;
+    background-color: white;
+}
+
+article:last-child {
+    margin-bottom: 4rem;
+    border-radius: 0 0 1rem 1rem;
 }
 
 article img, ul img {
@@ -197,4 +225,11 @@ h3 {
 .content ul li {
     font-size: 1.6rem;
     margin-bottom: 1.5rem;
+}
+
+.video-yt {
+    width: 80%;
+    height: 37rem;
+    margin: 0 auto;
+    border-radius: 1rem;
 }
