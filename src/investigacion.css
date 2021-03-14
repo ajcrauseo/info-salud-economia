@@ -1,0 +1,5 @@
+.large-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 500px));
+    gap: 1rem;
+}

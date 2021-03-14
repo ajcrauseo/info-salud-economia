@@ -110,13 +110,21 @@ footer {
 }
 
 /* ------- ARTICULOS GLOBAL -------- */
+.articulo-1 {
+    margin-top: 4rem;
+}
 
-.articulo-1, .articulo-2{
+article {
     padding: 1rem;
 }
 
 h2 {
     font-size: 2.4rem;
+    padding: 2rem;
+}
+
+h3 {
+    font-size: 2rem;
     padding: 2rem;
 }
 
