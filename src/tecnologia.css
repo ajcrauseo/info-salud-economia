@@ -8,3 +8,8 @@
     display: grid;
     grid-template-columns: repeat(2, 400px);
 }
+
+.articulo-2 ul {
+    display: flex;
+    flex-direction: column;
+}
