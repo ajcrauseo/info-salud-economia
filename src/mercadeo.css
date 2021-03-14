@@ -17,44 +17,43 @@ h2 {
 
 .parrafo {
     font-size: 1.6rem;
-}
-
-/* ARTICULO 1 */
-
-.articulo-1 .parrafo {
     padding-left: 2rem;
     margin-bottom: 1rem;
 }
 
-/* ARTICULO 2 */
-
-.articulo-2 .parrafo {
-    padding-left: 2rem;
-    margin-bottom: 1rem;
-}
-
-.articulo-2 ul {
-    margin-top: 2rem;
-    padding-left: 6rem;
-}
-
-.articulo-2 ul li {
+.parrafo-italic {
+    font-style: italic;
     font-size: 1.6rem;
-    margin-bottom: 1.5rem;
+    text-align: center;
+    margin: 2rem 0;
+    opacity: .8;
 }
 
-/* ARTICULO 3 */
-
-.articulo-3 .parrafo {
-    padding-left: 2rem;
-}
-
-.articulo-3 ul {
+.content ul {
     margin: 3rem 0;
     padding-left: 6rem;
 }
 
-.articulo-3 ul li {
+.content ul li {
     font-size: 1.6rem;
     margin-bottom: 1.5rem;
 }
+
+/* ARTICULO 1 */
+
+/* ARTICULO 2 */
+
+/* ARTICULO 3 */
+
+/* ARTICULO 4 */
+
+.articulo-4 .parrafo {
+    margin-bottom: 2rem;
+}
+
+.articulo-4 .parrafo:last-child {
+    margin-bottom: 1rem;
+}
+
+/* ARTICULO 5 */
+

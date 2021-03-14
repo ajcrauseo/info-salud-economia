@@ -70,3 +70,33 @@ body {
 .hero--title {
     font-size: 6rem;
 }
+
+/* ----------- FOOTER ----------- */
+
+footer {
+    height: 20vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    font-size: 1.4rem;
+}
+
+.footer--right {
+    min-width: 300px;
+}
+
+.footer--right ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.footer--right a {
+    text-decoration: none;
+    color: #0d0d0d;
+}
+
+.footer--right a:hover {
+    color: #0b009e;
+}
