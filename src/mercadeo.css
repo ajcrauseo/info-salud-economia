@@ -1,0 +1,60 @@
+.content {
+    display: grid;
+    grid-template-columns: 900px;
+    justify-content: center;
+}
+
+/* ------- ARTICULOS GLOBAL -------- */
+
+.articulo-1, .articulo-2{
+    padding: 1rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+    padding: 2rem;
+}
+
+.parrafo {
+    font-size: 1.6rem;
+}
+
+/* ARTICULO 1 */
+
+.articulo-1 .parrafo {
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* ARTICULO 2 */
+
+.articulo-2 .parrafo {
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.articulo-2 ul {
+    margin-top: 2rem;
+    padding-left: 6rem;
+}
+
+.articulo-2 ul li {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+}
+
+/* ARTICULO 3 */
+
+.articulo-3 .parrafo {
+    padding-left: 2rem;
+}
+
+.articulo-3 ul {
+    margin: 3rem 0;
+    padding-left: 6rem;
+}
+
+.articulo-3 ul li {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+}
