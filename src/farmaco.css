@@ -1,0 +1,22 @@
+.articulo-4 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 500px));
+    grid-template-areas: "h2 h2"
+                         "container-1 container-2";
+    gap: 1rem;
+}
+
+.articulo-4 h2 {
+    grid-area: h2;
+}
+
+.articulo-4 .container-1 {
+    grid-area: container-1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.articulo-4 .container-2 {
+    grid-area: container-2;
+}
