@@ -55,6 +55,14 @@ body {
     transition: 0.6s;
 }
 
+.header--burger {
+    display: none;
+}
+
+.header--cancel {
+    display: none;
+}
+
 .header.sticky {
     height: 8vh;
 }
@@ -65,12 +73,12 @@ body {
 }
 
 .header--logo img{
-    width: 50px;
+    width: 40px;
     transition: 0.6s;
 }
 
 .header.sticky .header--logo img{
-    width: 35px;
+    width: 30px;
 }
 
 /* --------- NAVBAR ---------- */
@@ -123,8 +131,7 @@ body {
     background-color: rgba(128, 128, 128, 0.05);
     padding: 1rem 3rem;
     border-radius: 1rem;
-    /* transition: 0.6s; */
-    /* animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both; */
+    text-align: center;
 }
 
 /* ----------- FOOTER ----------- */
@@ -186,14 +193,11 @@ article:last-child {
 }
 
 article img, ul img {
-    min-width: 400px;
+    min-width: 250px;
     max-width: 800px;
     margin: 1rem;
     align-self: center;
     border-radius: 1rem;
-}
-
-ul img {
 }
 
 h2 {
