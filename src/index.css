@@ -47,7 +47,7 @@ body {
 }
 
 .navbar--item a{
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     text-decoration: none;
     color: #0d0d0d;
     font-weight: 400;
@@ -99,4 +99,47 @@ footer {
 
 .footer--right a:hover {
     color: #0b009e;
+}
+
+/* CONTENT */
+
+.content {
+    display: grid;
+    grid-template-columns: minmax(500px, 900px);
+    justify-content: center;
+}
+
+/* ------- ARTICULOS GLOBAL -------- */
+
+.articulo-1, .articulo-2{
+    padding: 1rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+    padding: 2rem;
+}
+
+.parrafo {
+    font-size: 1.6rem;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.parrafo-italic {
+    font-style: italic;
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 2rem 0;
+    opacity: .8;
+}
+
+.content ul {
+    margin: 3rem 0;
+    padding-left: 6rem;
+}
+
+.content ul li {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
 }
